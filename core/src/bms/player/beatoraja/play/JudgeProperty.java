@@ -15,7 +15,7 @@ public enum JudgeProperty {
             0,
             new boolean[]{true, true, true, false, false, false },
             MissCondition.ALWAYS,
-            new boolean[]{true, true, true, true, true, false },
+            new boolean[]{true, true, true, true, false, false },
             JudgeWindowRule.NORMAL
             ),
     SEVENKEYS(new long[][]{ {-20000, 20000}, {-60000, 60000}, {-150000, 150000}, {-280000, 220000}, {-150000, 500000} },
@@ -26,7 +26,7 @@ public enum JudgeProperty {
             0,
             new boolean[]{true, true, true, false, false, true },
             MissCondition.ALWAYS,
-            new boolean[]{true, true, true, true, true, false },
+            new boolean[]{true, true, true, true, false, false },
             JudgeWindowRule.NORMAL
             ),
     PMS(new long[][]{ {-20000, 20000}, {-50000, 50000}, {-117000, 117000}, {-183000, 183000}, {-175000, 500000} },
@@ -37,7 +37,7 @@ public enum JudgeProperty {
             0,
             new boolean[]{true, true, true, false, false, false },
             MissCondition.ONE,
-            new boolean[]{true, true, true, false, true, false },
+            new boolean[]{true, true, true, true, false, false },
             JudgeWindowRule.PMS
             ),
     KEYBOARD(new long[][]{ {-30000, 30000}, {-90000, 90000}, {-200000, 200000}, {-320000, 240000}, {-200000, 650000} },
@@ -48,7 +48,7 @@ public enum JudgeProperty {
             0,
             new boolean[]{true, true, true, false, false, true },
             MissCondition.ALWAYS,
-            new boolean[]{true, true, true, true, true, false },
+            new boolean[]{true, true, true, true, false, false },
             JudgeWindowRule.NORMAL
             ),
     LR2(new long[][]{{-21000, 21000}, {-60000, 60000}, {-120000, 120000}, {-200000, 200000}, {0, 1000000}}, 
@@ -59,7 +59,7 @@ public enum JudgeProperty {
             0,
             new boolean[]{true, true, true, false, false, true },
             MissCondition.ALWAYS,
-            new boolean[]{true, true, true, true, true, false },
+            new boolean[]{true, true, true, true, false, false },
             JudgeWindowRule.LR2
             ),
     ;
